@@ -19,18 +19,18 @@ a{
   columns: #fff;
 }
 
-.button{
+button{
   width: 100%;
   padding: 8px 0;
   border-radius: 4px;
-  background-color: red;
+  background-color: purple;
   color: #fff;
   cursor: pointer;
 }
 
-.button:hover{
+button:hover{
   border: 1px solid blueviolet; 
-  background-color: aquamarine;
+  background-color: darkred;
 }
 
 code {

@@ -1,10 +1,17 @@
 import React from 'react';
+import Hero from './Hero';
 import Navbar from './Navbar';
+import Pricing from './Pricing';
 
 
 const Home = () => {
   return (
-   <Navbar />
+    <div>
+        <Navbar />
+        <Hero />
+        <Pricing />
+  </div>
+  
   )
 }
 
